@@ -1,0 +1,44 @@
+main{
+    width: 100%;
+    background-image: url(back.2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.content{
+    margin: 0 auto;
+    min-width: 430px;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    position: relative;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: coral;
+    font-family: monospace, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    outline: none;
+    background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0; 
+}
+.button:active {
+    top: 5px;
+  }
+.button:hover {
+    transition: 1.5s linear;
+    background-position: -200% 0, 0 0;
+  }
